@@ -1,0 +1,3 @@
+[submodule "bin/utilities"]
+	path = bin/utilities
+	url = https://github.com/tlepple/utilities.git
