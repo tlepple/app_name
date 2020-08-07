@@ -1,0 +1,6 @@
+[submodule "bin/provider"]
+	path = bin/provider
+	url = https://github.com/tlepple/provider.git
+[submodule "bin/utilities"]
+	path = bin/utilities
+	url = https://github.com/tlepple/utilities.git
