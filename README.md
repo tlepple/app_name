@@ -18,7 +18,7 @@ sudo ln -s /Users/$USER/Documents/cloud_stuff/docker_stuff ~/fishermans_wharf
 
 ```
 
-Create the docker container and mount the directories
+## Create the docker container and mount the directories
 
 
 ```
