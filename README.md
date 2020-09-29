@@ -35,6 +35,16 @@ docker run -it \
 ```
 
 
+# To clean up and terminate all items run
+
+```
+cd /app/app_name
+
+. provider/aws/terminate_everything.sh
+
+```
+
+
 ### Pull the repo
 
 ```
