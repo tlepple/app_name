@@ -59,7 +59,7 @@ git submodule update --force --recursive --init --remote
 ### Edit the demo.properties file for your updates and set AMI and Region you are running in
 
 ```
-vi /app/app_name/provider/aws/demo.properties
+vi /app/app_name/bin/provider/aws/demo.properties
 ```
 
 ### Sample demo.properties
