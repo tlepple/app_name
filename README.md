@@ -27,7 +27,7 @@ docker volume create app_name_vol1
 
 # Create the docker container
 docker run -it \
-  --name tim_bruce_tony_env \
+  --name aws_build_cnt \
   --mount source=tapp_name_vol1,target=/app \
   --mount type=bind,source=/Users/$USER/Documents/cloud_stuff/docker_stuff,target=/root/fishermans_wharf \
   centos:7 bash 
@@ -160,4 +160,33 @@ cd /app/app_name
           |       ssh -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o UserKnownHostsFile=/dev/null -i ~/fishermans_wharf/tlepple-us-west-1-i-0e1cec3878da09f63-10.0.8.81.pem centos@52.52.99.73          
           ---------------------------------------------------------------------------------------------------------------------------------------------
           ---------------------------------------------------------------------------------------------------------------------------------------------
+```
+
+
+### Usefull docker commands
+
+```
+# list all containers on host
+docker ps -a
+
+#  start an existing container
+docker start aws_build_cnt
+
+# connect to command line of this container
+docker exec -it aws_build_cnt bash
+
+#list running container
+docker container ls -all
+
+# stop a running container
+docker container stop aws_build_cnt
+
+# remove a docker container
+docker container rm aws_build_cnt
+
+# list docker volumes
+docker volume ls
+
+# remove a docker volume
+docker volume rm app_name_vol1
 ```
