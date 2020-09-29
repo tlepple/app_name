@@ -35,16 +35,6 @@ docker run -it \
 ```
 
 
-# To clean up and terminate all items run
-
-```
-cd /app/app_name
-
-. provider/aws/terminate_everything.sh
-
-```
-
-
 ### Pull the repo
 
 ```
@@ -189,4 +179,15 @@ docker volume ls
 
 # remove a docker volume
 docker volume rm app_name_vol1
+```
+---
+---
+
+# To clean up and terminate all items run
+
+```
+cd /app/app_name
+
+. provider/aws/terminate_everything.sh
+
 ```
