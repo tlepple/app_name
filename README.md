@@ -55,15 +55,7 @@ git submodule update --force --recursive --init --remote
 
 ```
 
-### Export your AWS credentials
 
-
-```
-export AWS_ACCESS_KEY_ID=<your key>
-export AWS_SECRET_ACCESS_KEY=<your secret key>
-export AWS_DEFAULT_REGION=<aws region you want to run in>
-
-```
 ### Edit the demo.properties file for your updates and set AMI and Region you are running in
 
 ```
@@ -126,6 +118,18 @@ setup_prereqs=true
 setup_onenode=true
 
 ```
+
+
+### Export your AWS credentials
+
+
+```
+export AWS_ACCESS_KEY_ID=<your key>
+export AWS_SECRET_ACCESS_KEY=<your secret key>
+export AWS_DEFAULT_REGION=<aws region you want to run in>
+
+```
+
 ### Start the build:
 
 
