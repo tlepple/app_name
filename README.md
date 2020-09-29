@@ -196,6 +196,6 @@ docker volume rm app_name_vol1
 ```
 cd /app/app_name
 
-. provider/aws/terminate_everything.sh
+. bin/provider/aws/terminate_everything.sh
 
 ```
