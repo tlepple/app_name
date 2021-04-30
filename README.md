@@ -30,7 +30,7 @@ docker volume create app_name_vol1
 # Create the docker container
 docker run -it \
   --name aws_build_cnt \
-  --mount source=tapp_name_vol1,target=/app \
+  --mount source=app_name_vol1,target=/app \
   --mount type=bind,source=/Users/$USER/Documents/cloud_stuff/docker_stuff,target=/root/fishermans_wharf \
   centos:7 bash 
     
