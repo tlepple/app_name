@@ -213,3 +213,4 @@ cd /app/app_name
 ```
 cd /app/app_name
 . bin/stop_instance.sh
+```
