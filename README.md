@@ -199,3 +199,17 @@ cd /app/app_name
 . bin/provider/aws/terminate_everything.sh
 
 ```
+
+
+
+## Start a stopped Cloud Instance (Currently only works with AWS)
+```
+cd /app/app_name
+. bin/start_instance.sh
+
+```
+
+## Stop a running Cloud Instance (Currently only works with AWS):
+```
+cd /app/app_name
+. bin/stop_instance.sh
